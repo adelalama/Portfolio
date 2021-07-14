@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --primary:#eeebdd;
+    --secondary:#ce1212;
+    --tertiary:#1b1717;
+    
+}
+
+body{
+    margin: 2;
+    padding: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--tertiary);
+    background-color: var(--primary);
+    
+}
+
+h1{
+    margin: 5px;
+}
+
+header{
+    padding: 2px 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary);
+}
+
+header h1 {
+    color: var(--tertiary);
+    margin: 0;
+    font-size: 4vw;
+    line-height: 1;
+  }
+
+nav{
+    display:flex;
+    flex-direction: row;
+    margin-right: 0;
+    flex-wrap: wrap; 
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--primary);
+    margin-right: 10px;
+    background-image: linear-gradient(270deg, var(--tertiary) 0%, var(--tertiary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    font-size: 1.4rem;
+  }
+  
+  nav a:hover {
+    background-size: 100% 100%;
+    color: var(--primary);
+  }
+
+  main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+  }
+
+  .page-wrapper {
+    max-width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .page-section > h1 {
+    flex: 0 0 20%;
+    text-align: left;
+    padding-right: 15px;
+    
+    border-bottom: 4px solid var(--secondary);
+    font-size: 4vw;
+    line-height: 1.1;
+  }
+
+
+  .contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  .contact address a {
+    color: var(--tertiary);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+    background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+  }
+
+  .contact address a:hover {
+    background-size: 100% 88%;
+    color: var(--secondary);
+  }
+
+  .flex-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .flex-item {
+    border: 5px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    min-height: 300px;
+    max-height: 300px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+  }
+
+  .flex-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .flex-item div {
+    background-color: var(--primary);
+    padding: 8px 10px;
+  }
+  
+  .first-game{
+      background-image: url("../images/leportrai.jpg");
+  }
+  .surf{
+    background-image: url("../images/surf-4.jpg");
+  }
+
+  .led{
+      background-image: url("../images//AdobeStock_289192813.jpg");
+
+  }
+  .calculator{
+    background-image: url("../images/Numbers.png");
+  }
+
+  .running{
+    background-image: url("../images/The-Guide-to-Being-a-Good-Running-Buddy.jpg");
+  }
+
+  .second-game{
+    background-image: url("../images/workout_samurai_sized_A.png");
+  }
+  
+  
