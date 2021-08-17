@@ -12,7 +12,7 @@
 body{
     margin: 2;
     padding: 2;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Futura','Garamond', "Geneva", Verdana, sans-serif;
     color: var(--tertiary);
     background-color: var(--primary);
     
@@ -43,6 +43,7 @@ nav{
     flex-direction: row;
     margin-right: 0;
     flex-wrap: wrap; 
+    
 }
 
 nav a {
@@ -57,6 +58,11 @@ nav a {
     transition: all 0.25s ease-in;
     font-size: 1.4rem;
   }
+
+  .navbar.collapsing,
+  .navbar.show {
+    background:white !important;
+}
   
   nav a:hover {
     background-size: 100% 100%;
@@ -128,6 +134,11 @@ nav a {
       justify-content: center;
   }
 
+  .highlight{
+    min-height: 400px;
+    min-width: 400px;
+  }
+
   .flex-item {
     border: 5px solid var(--secondary);
     background-color: var(--primary);
@@ -144,7 +155,9 @@ nav a {
     background-size: 150%;
     transition: all 0.5s;
     font-size: 0.9rem;
+    border-radius: 8%;
   }
+  
 
   .flex-item:hover {
     background-color: rgba(0, 0, 0, 0.3);
@@ -155,6 +168,10 @@ nav a {
     padding: 8px 10px;
   }
   
+
+  .vagabundos-app{
+    background-image: url("../images/travel.jpg");
+}
   .first-game{
       background-image: url("../images/leportrai.jpg");
   }
@@ -177,5 +194,14 @@ nav a {
   .second-game{
     background-image: url("../images/workout_samurai_sized_A.png");
   }
+
+ 
+
+  .jumbotron{
+    background:none
+  }
+
   
+
+
   
