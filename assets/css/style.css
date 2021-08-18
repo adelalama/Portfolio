@@ -59,13 +59,10 @@ nav a {
     font-size: 1.4rem;
   }
 
-  .navbar.collapsing,
-  .navbar.show {
-    background:white !important;
-}
+  
   
   nav a:hover {
-    background-size: 100% 100%;
+    background-size: 10 0% 100%;
     color: var(--primary);
   }
 
