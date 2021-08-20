@@ -169,6 +169,9 @@ nav a {
   .vagabundos-app{
     background-image: url("../images/travel.jpg");
 }
+.pawbook-app{
+  background-image: url("../images/dogs-age-years-kb-inline-200707.jpg");
+}
   .first-game{
       background-image: url("../images/leportrai.jpg");
   }
@@ -189,7 +192,7 @@ nav a {
   }
 
   .second-game{
-    background-image: url("../images/workout_samurai_sized_A.png");
+    background-image: url("../images/descarga.jpeg");
   }
 
  
@@ -198,6 +201,9 @@ nav a {
     background:none
   }
 
+  .profImg{
+    border-radius: 50%;
+  }
   
 
 
